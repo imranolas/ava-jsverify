@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "ava test"
+  },
   "peerDependencies": {
+    "ava": "^0.19.0",
+    "jsverify": "^0.8.2"
+  },
+  "devDependencies": {
     "ava": "^0.19.0",
     "jsverify": "^0.8.2"
   }

@@ -30,12 +30,13 @@ function check(/*...args, propertyFn, [options,] */) {
       test.assertError = undefined;
       test.assertions = [];
       test.planCount = null;
+      test.assertCount = 0;
       test.planStack = null;
 
       var result = fn.apply(null, arguments);
 
       // Check plan after every run.
-      test._checkPlanCount();
+      test.verifyPlan();
 
       if (test.assertError) {
         throw test.assertError;
