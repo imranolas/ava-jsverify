@@ -10,7 +10,8 @@
 </p>
 
 <h4 align="center">
-  An interface for running [jsverify](https://github.com/jsverify/jsverify) tests with [AVA](https://github.com/avajs/ava)
+  An interface for running
+  <a href="https://github.com/jsverify/jsverify">jsverify</a> tests with  <a href="https://github.com/avajs/ava">AVA</a>
 </h4>
 
 ***
