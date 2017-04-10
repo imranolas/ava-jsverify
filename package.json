@@ -1,8 +1,20 @@
 {
   "name": "ava-jsverify",
+  "description": "An interface for running jsverify tests with AVA",
   "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranolas/ava-jsverify.git"
+  },
+  "keywords": [
+    "ava",
+    "jsverify",
+    "testcheck"
+  ],
+  "author": "Imran Sulemanji <imranolas@gmail.com>",
+  "homepage": "https://github.com/imranolas/ava-jsverify#readme",
   "scripts": {
     "test": "ava test"
   },
