@@ -1,7 +1,7 @@
 {
   "name": "ava-jsverify",
   "description": "An interface for running jsverify tests with AVA",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "repository": {
